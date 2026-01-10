@@ -7656,7 +7656,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 95.504 151.13 0)
 			(effects
 				(font
@@ -9586,7 +9586,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 182.88 133.3499 0)
 			(effects
 				(font
@@ -10798,7 +10798,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 226.06 96.5199 0)
 			(effects
 				(font
@@ -11349,7 +11349,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 262.89 96.5199 0)
 			(effects
 				(font
@@ -11419,7 +11419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 265.43 135.8899 0)
 			(effects
 				(font
@@ -12809,8 +12809,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 80.772 150.876 0)
+		(property "Value" "10k"
+			(at 85.344 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
