@@ -20,6 +20,9 @@ _autosave-*
 fp-info-cache
 /build
 
+# Lock files
+*.lck
+
 # Netlist files (exported from Eeschema)
 *.net
 
