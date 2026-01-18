@@ -3,4 +3,5 @@
   (lib (name "Project Modules")(type "KiCad")(uri "${KIPRJMOD}/footprints/modules.pretty")(options "")(descr ""))
   (lib (name "Project Elements")(type "KiCad")(uri "${KIPRJMOD}/footprints/elements.pretty")(options "")(descr ""))
   (lib (name "ME2108A33P")(type "KiCad")(uri "${KIPRJMOD}/footprints/ME2108A33P")(options "")(descr ""))
+  (lib (name "CD54")(type "KiCad")(uri "${KIPRJMOD}/footprints/CD54.pretty")(options "")(descr ""))
 )

@@ -2215,6 +2215,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Microchip_ATmega:ATmega328P-A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8316,12 +8417,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 306.07 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8665,12 +8767,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 318.77 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8947,12 +9050,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 175.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9013,12 +9117,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 367.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9079,12 +9184,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 30.48 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9425,7 +9531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 367.03 48.26 0)
 			(effects
 				(font
@@ -9492,12 +9598,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 106.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9698,12 +9805,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 191.77 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9900,7 +10008,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "PV_IN_1"
 			(at 27.305 27.94 0)
 			(effects
 				(font
@@ -9908,7 +10016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "foot_prints:DoubleSolderWirePad_1x01_SMD_2x5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 26.67 33.02 0)
 			(effects
 				(font
@@ -9969,12 +10077,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 328.93 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10181,7 +10290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "foot_prints:ATH20 + BMP280"
+		(property "Footprint" "Project Modules:ATH20 + BMP280"
 			(at 386.08 24.13 0)
 			(effects
 				(font
@@ -10368,6 +10477,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 168.91 49.53 0)
 		(unit 1)
@@ -10386,12 +10496,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 168.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10524,12 +10635,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10742,12 +10854,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 265.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11186,12 +11299,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 55.88 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11538,12 +11652,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 130.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11743,12 +11858,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 252.73 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11809,12 +11925,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 49.53 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11945,12 +12062,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 71.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12780,12 +12898,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 107.95 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12846,7 +12965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 367.03 68.58 0)
 			(effects
 				(font
@@ -12913,7 +13032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 367.03 96.52 0)
 			(effects
 				(font
@@ -13049,12 +13168,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 367.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -13185,12 +13305,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -13682,7 +13803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor cd54:IND_CD54_SUM"
+		(property "Footprint" "CD54:IND_CD54_SUM"
 			(at 137.16 30.48 0)
 			(effects
 				(font
@@ -13816,7 +13937,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "PV_IN_2"
 			(at 27.305 53.34 0)
 			(effects
 				(font
@@ -13824,7 +13945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "foot_prints:DoubleSolderWirePad_1x01_SMD_2x5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 26.67 58.42 0)
 			(effects
 				(font
@@ -13894,7 +14015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "foot_prints:VEML7700"
+		(property "Footprint" "Project Modules:VEML7700"
 			(at 386.08 41.91 0)
 			(effects
 				(font
@@ -14112,7 +14233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "foot_prints:RF_TRANSMITTER"
+		(property "Footprint" "Project Modules:RF_TRANSMITTER"
 			(at 386.08 72.39 0)
 			(effects
 				(font
@@ -14179,12 +14300,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 367.03 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -14380,12 +14502,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 203.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
