@@ -482,7 +482,10 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "/VCC": "rgb(255, 44, 44)",
+      "GND": "rgb(30, 96, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },

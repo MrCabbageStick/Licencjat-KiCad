@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x05 2.54mm single row")
 	(property "Reference" "REF**"
-		(at 0 -2.38 0)
+		(at 0.55 -4.55 0)
 		(layer "F.SilkS")
 		(uuid "68327fc4-1c18-4396-9552-d8304b2ba0a0")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "VEML7700"
-		(at 0 12.54 0)
+		(at 6.3 14.65 0)
 		(layer "F.Fab")
 		(uuid "b3e3b90f-ccc3-4c44-951f-2edad2ec1499")
 		(effects
@@ -120,7 +120,7 @@
 			(type default)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "c77c4671-3c75-44d3-aaac-2564a617bef5")
 	)
 	(fp_line

@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x04 2.54mm single row")
 	(property "Reference" "REF**"
-		(at 0 -2.38 0)
+		(at 0.5 -6.7 0)
 		(layer "F.SilkS")
 		(uuid "5919b8ae-c2ae-4a80-9264-1e5eff37c06e")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "RF_TRANSMITTER"
-		(at 0 10 0)
+		(at 4.45 11.95 0)
 		(layer "F.Fab")
 		(uuid "742e6847-99b6-4cba-ac90-71f2c9510b1e")
 		(effects
@@ -112,17 +112,6 @@
 		(layer "F.SilkS")
 		(uuid "a6277a1c-f3ff-4453-b5d3-6dc87ef11bdf")
 	)
-	(fp_rect
-		(start -2 -5.75)
-		(end 11 10.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Margin")
-		(uuid "48f296e0-c20e-4fda-bf85-cdf68e23cdfb")
-	)
 	(fp_line
 		(start -1.77 -1.77)
 		(end -1.77 9.39)
@@ -162,6 +151,17 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "264b032a-b6d0-4b92-ab3a-a57b6f66df9f")
+	)
+	(fp_rect
+		(start -2 -5.75)
+		(end 11 10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "48f296e0-c20e-4fda-bf85-cdf68e23cdfb")
 	)
 	(fp_line
 		(start -1.27 -0.635)
