@@ -5,7 +5,18 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "GND"
+      "GND",
+      "/V_CAP",
+      "/V_HALF_CAP",
+      "/VCC_GEIGER",
+      "/VCC_RF",
+      "/VCC_I2C",
+      "/SCL_SHIFTED",
+      "/SDA_SHIFTED",
+      "/RF_DATA_SHIFTED",
+      "/GEIGER_IN",
+      "/1_WIRE_SHIFTED",
+      "/VCC_1_WIRE"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -18,17 +29,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": true,
-      "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "dimensions": false,
+      "footprints": false,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
+      "otherItems": false,
+      "pads": false,
+      "text": false,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       "vias",
