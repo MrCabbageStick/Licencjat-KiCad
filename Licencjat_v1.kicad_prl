@@ -1,23 +1,10 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 7,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "GND",
-      "/V_CAP",
-      "/V_HALF_CAP",
-      "/VCC_GEIGER",
-      "/VCC_RF",
-      "/VCC_I2C",
-      "/SCL_SHIFTED",
-      "/SDA_SHIFTED",
-      "/RF_DATA_SHIFTED",
-      "/GEIGER_IN",
-      "/1_WIRE_SHIFTED",
-      "/VCC_1_WIRE"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -29,17 +16,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": false,
-      "footprints": false,
-      "graphics": false,
-      "keepouts": false,
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       "vias",
@@ -63,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_7fffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffda",
     "zone_display_mode": 0
   },
   "git": {

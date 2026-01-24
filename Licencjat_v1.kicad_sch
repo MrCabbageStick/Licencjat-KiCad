@@ -5903,7 +5903,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 118.11) (xy 74.93 118.11)
+			(xy 71.12 118.11) (xy 80.01 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6143,7 +6143,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 143.51) (xy 290.83 143.51)
+			(xy 275.59 143.51) (xy 290.83 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6773,7 +6773,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 120.65) (xy 74.93 120.65)
+			(xy 71.12 120.65) (xy 80.01 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7621,16 +7621,6 @@
 		)
 		(uuid "fd3a0252-f6cf-497a-8ae7-763851844397")
 	)
-	(label "RF_DATA"
-		(at 80.01 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02fd4e9c-b152-4b74-8de2-9c0ca4a16195")
-	)
 	(label "D10"
 		(at 74.93 123.19 0)
 		(effects
@@ -7881,6 +7871,16 @@
 		)
 		(uuid "3d7304bb-e398-4b8f-96c9-922dee7f179b")
 	)
+	(label "~{EN_VCC_RF}"
+		(at 80.01 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ef970f5-c4d2-4b1b-ba2d-3f8da445d0a4")
+	)
 	(label "VCC"
 		(at 238.76 76.2 0)
 		(effects
@@ -7890,6 +7890,16 @@
 			(justify left bottom)
 		)
 		(uuid "3ffca912-9ef6-4ab4-89ac-686ff8f164a0")
+	)
+	(label "~{EN_VCC_I2C}"
+		(at 80.01 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40afeb04-0f57-4395-a3e7-d1aae66932e5")
 	)
 	(label "SCL_SHIFTED"
 		(at 369.57 59.69 0)
@@ -8071,16 +8081,6 @@
 		)
 		(uuid "62f1bd10-4c72-4dcf-817d-d9ddcae4a8db")
 	)
-	(label "~{EN_VCC_RF}"
-		(at 80.01 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6428a254-d506-405e-8185-906fbd2b0610")
-	)
 	(label "~{EN_VCC_1_WIRE}"
 		(at 293.37 34.29 0)
 		(effects
@@ -8120,6 +8120,16 @@
 			(justify left bottom)
 		)
 		(uuid "726cadd3-426d-40d0-b3b6-1988079ac233")
+	)
+	(label "~{EN_VCC_GEIGER}"
+		(at 80.01 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "736ced02-7eee-4d43-b514-c8e81b9e7517")
 	)
 	(label "VCC_1_WIRE"
 		(at 271.78 21.59 0)
@@ -8311,6 +8321,16 @@
 		)
 		(uuid "ab6e7f89-e3f5-4342-9372-bca3cb213b21")
 	)
+	(label "RF_DATA"
+		(at 80.01 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac2c7100-8a9b-45bd-b53c-4fa9c02abc44")
+	)
 	(label "SCL_SHIFTED"
 		(at 369.57 29.21 0)
 		(effects
@@ -8401,6 +8421,16 @@
 		)
 		(uuid "bd6a7b0d-a3a2-447a-8b23-554402973a14")
 	)
+	(label "~{EN_VCC_1_WIRE}"
+		(at 80.01 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf535c3d-ca05-4afd-b3b3-d885de7be584")
+	)
 	(label "VCC"
 		(at 44.45 213.36 0)
 		(effects
@@ -8461,16 +8491,6 @@
 		)
 		(uuid "cf110f8d-3de6-496f-893b-dc8ccae32c1b")
 	)
-	(label "~{EN_VCC_I2C}"
-		(at 80.01 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf5b8600-16aa-4c80-a57e-f6bba89047f8")
-	)
 	(label "SDA_SHIFTED"
 		(at 369.57 57.15 0)
 		(effects
@@ -8481,8 +8501,8 @@
 		)
 		(uuid "da0201b4-18bd-4d3f-8719-9cbe2e8acd93")
 	)
-	(label "D4"
-		(at 285.75 143.51 0)
+	(label "~{EN_VCC_GEIGER}"
+		(at 275.59 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13013,10 +13033,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9604d365-e53c-45b2-82aa-de1891dda111")
 		(property "Reference" "C1"
-			(at 93.9863 123.19 90)
+			(at 93.98 124.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
