@@ -34,6 +34,45 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -147,7 +186,7 @@
 			)
 		)
 		(property "Value" "1_WIRE"
-			(at 3.25 2.54 180)
+			(at 3.25 2.5 180)
 			(layer "F.SilkS")
 			(uuid "eae25a54-55f4-4d69-be98-c9eab3146eaa")
 			(effects
@@ -816,7 +855,7 @@
 			)
 		)
 		(property "Value" "ADDITIONAL I2C"
-			(at -3.5 4.06 90)
+			(at -3 3.75 90)
 			(layer "F.SilkS")
 			(uuid "3539b3b8-2078-42d1-ba0f-54629acafd46")
 			(effects
@@ -1929,7 +1968,7 @@
 			)
 		)
 		(property "Value" "AHT20 + BMP280"
-			(at 3 3.5 90)
+			(at 3 4.25 90)
 			(layer "F.SilkS")
 			(uuid "a9433f37-ed4b-4da3-b998-23223db0b63f")
 			(effects
@@ -3028,7 +3067,7 @@
 		(property "Reference" "J6"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
-			(uuid "e4db6ce3-1d6e-490e-982b-afc0a7c41e98")
+			(uuid "28ff446d-8d90-41bc-8eb5-0f2903038938")
 			(effects
 				(font
 					(size 1 1)
@@ -3037,9 +3076,9 @@
 			)
 		)
 		(property "Value" "RF_TRANSMITTER"
-			(at -3.5 3.12 0)
+			(at -3.5 4.37 0)
 			(layer "F.SilkS")
-			(uuid "205dd0f1-702f-4d83-a702-33466ab17f54")
+			(uuid "cacf1ab8-1d9a-479a-870d-6a4c322f5856")
 			(effects
 				(font
 					(size 1 1)
@@ -3051,7 +3090,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f43dd6c6-6fac-4bd3-98eb-3281f824d598")
+			(uuid "45f66b17-fe96-4957-b10c-adb36f6915dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +3102,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ddc9a75-c1a0-4d90-8640-c123b755e643")
+			(uuid "8abfa437-e813-4b86-8d84-f3c5af1ff853")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +4059,7 @@
 			)
 		)
 		(property "Value" "GEIGER"
-			(at 3.5 2.75 180)
+			(at 3.25 2.75 180)
 			(layer "F.SilkS")
 			(uuid "b218c875-e3bb-4c8a-935e-d8af57694136")
 			(effects
@@ -16496,6 +16535,19 @@
 		(layer "Edge.Cuts")
 		(uuid "6dc56754-cd62-4c32-9e02-80a08caa4742")
 	)
+	(gr_text "V1.0"
+		(at 140.75 75.25 90)
+		(layer "F.SilkS")
+		(uuid "0b8bc03b-0305-4f19-ad0c-928241493119")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "D"
 		(at 172.25 44.25 90)
 		(layer "F.SilkS")
@@ -16553,6 +16605,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Daniel Wiszniowski"
+		(at 144.25 75.5 90)
+		(layer "F.SilkS")
+		(uuid "28a6009b-b808-47b4-a9e4-c8cf4c6080c0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -16746,6 +16811,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Bezakumulatorowy \nczujnik klimatyczny \nzasilany słonecznie"
+		(at 137 75.5 90)
+		(layer "F.SilkS")
+		(uuid "dc71973b-50ce-446c-b43d-f8a90dbdb1f7")
+		(effects
+			(font
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
