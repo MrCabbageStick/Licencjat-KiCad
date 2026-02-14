@@ -8802,7 +8802,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "470k"
 			(at 261.62 147.32 90)
 			(effects
 				(font
@@ -9630,7 +9630,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1M"
 			(at 95.25 69.8499 0)
 			(effects
 				(font
@@ -9904,7 +9904,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100k"
 			(at 95.25 62.2299 0)
 			(effects
 				(font
@@ -10109,7 +10109,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1k"
 			(at 87.63 159.004 90)
 			(effects
 				(font
@@ -10580,8 +10580,8 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 93.726 144.78 90)
+		(property "Value" "22p"
+			(at 94.234 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,7 +10724,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10u"
 			(at 63.5063 104.14 90)
 			(effects
 				(font
@@ -11136,7 +11136,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1M"
 			(at 293.37 138.4299 0)
 			(effects
 				(font
@@ -11658,7 +11658,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "BSS138"
 			(at 251.46 95.25 90)
 			(effects
 				(font
@@ -11800,7 +11800,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2SC1945"
+		(property "Value" "D880"
 			(at 55.88 41.9099 0)
 			(effects
 				(font
@@ -11946,7 +11946,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100k"
 			(at 95.25 36.8299 0)
 			(effects
 				(font
@@ -12563,7 +12563,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1M"
 			(at 312.42 83.8199 0)
 			(effects
 				(font
@@ -12710,7 +12710,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2SC1945"
+		(property "Value" "D880"
 			(at 55.88 67.3099 0)
 			(effects
 				(font
@@ -13042,8 +13042,8 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 93.9863 125.73 90)
+		(property "Value" "22p"
+			(at 93.98 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13111,7 +13111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC846"
+		(property "Value" "BC847"
 			(at 255.27 157.4799 0)
 			(effects
 				(font
@@ -13187,7 +13187,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1M"
 			(at 312.42 29.2099 0)
 			(effects
 				(font
@@ -13257,7 +13257,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1M"
 			(at 312.42 55.8799 0)
 			(effects
 				(font
@@ -13316,10 +13316,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a42af8d0-b8b7-4a04-a595-645ad8b2fc41")
 		(property "Reference" "R4"
-			(at 255.27 143.5099 0)
+			(at 255.778 141.732 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13327,8 +13326,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 255.27 146.0499 0)
+		(property "Value" "240k"
+			(at 254.508 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13597,7 +13596,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100p"
 			(at 267.97 158.7562 0)
 			(effects
 				(font
@@ -14083,7 +14082,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 34.2963 114.3 90)
 			(effects
 				(font
@@ -14151,7 +14150,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "BSS138"
 			(at 252.73 40.64 90)
 			(effects
 				(font
@@ -14226,7 +14225,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1M"
 			(at 95.25 44.4499 0)
 			(effects
 				(font
@@ -14295,7 +14294,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "10u"
 			(at 137.16 27.94 90)
 			(effects
 				(font
@@ -14363,7 +14362,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "BSS138"
 			(at 252.73 67.31 90)
 			(effects
 				(font
@@ -15501,7 +15500,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "BSS138"
 			(at 251.46 123.19 90)
 			(effects
 				(font
@@ -15574,7 +15573,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1k"
 			(at 87.63 167.64 90)
 			(effects
 				(font
